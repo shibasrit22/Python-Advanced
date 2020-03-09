@@ -1,0 +1,6 @@
+//getter
+var defaultDate = $(".selector").datepicker( "option", "defaultDate" );
+
+
+//setter
+$(".selector").datepicker( "option", "defaultDate", +7 );
